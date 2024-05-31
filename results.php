@@ -1,10 +1,8 @@
 
-<!-- Result -->
-  <iframe name="resultFrame" src="./results.php">
-  </iframe>
+
 <!-- <form id="inputForm" method="post" action="results.php" target="resultFrame"> -->
 
-<b>
+<b id="outputResult">
   <?php
     // Code
     if(isset($_POST['submit'])) 
