@@ -33,7 +33,8 @@
   <h1>Product of Numbers in PHP</h1>
 
   <!-- INPUT FORM [used for form validation] -->
-  <form id="inputForm">
+  <form id="inputForm" method="post" action="results.php" target="resultFrame">
+
     <!-- Table For Layout -->
     <table>
       <tr>
